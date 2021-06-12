@@ -4,6 +4,10 @@ body {
   box-sizing: border-box;
 }
 
+main {
+  background-color: black;
+}
+
 .landing {
   /* background-image: url('./assets/images/viktor-talashuk.jpg'); */
   background-color: black;
@@ -13,5 +17,34 @@ body {
 }
 
 img {
-  transform: translate(30%, -10%);
+  transform: translate(180%, 0%);
+  position: absolute;
+  width: 20%;
+}
+
+.links-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-links {
+  list-style: none;
+  font-size: 3rem;
+  /* position: absolute; */
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-links li {
+  padding: 1rem 3rem;
+  background-color: rgb(243, 95, 120);
+  margin: 10px;
 }
