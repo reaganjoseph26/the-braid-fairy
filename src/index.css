@@ -28,6 +28,14 @@ img {
   justify-content: center;
 }
 
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
 .main-links {
   list-style: none;
   font-size: 3rem;
@@ -47,4 +55,11 @@ img {
   padding: 1rem 3rem;
   background-color: rgb(243, 95, 120);
   margin: 10px;
+}
+
+.contact-info p {
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  text-align: center;
 }

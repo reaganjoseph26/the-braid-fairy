@@ -9,14 +9,14 @@ function Main() {
         </div>
       </section>
 
-      <div className="carousel"></div>
-
-      <div>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+      <div className="contact-info">
+        <p>Location: Orlando, Florida</p>
+        <p>Buisness Hours: Mon-Sun: 10:00am-7:00pm</p>
+        <p>Text Line: 0000000000</p>
+        <p>Booking avaiable online only</p>
       </div>
+
+      <div className="carousel"></div>
 
       <div className="links-div">
           <ul className="main-links">
