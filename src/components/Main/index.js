@@ -11,6 +11,13 @@ function Main() {
 
       <div className="carousel"></div>
 
+      <div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+
       <div className="links-div">
           <ul className="main-links">
             <li><a href="">Book Appointment</a></li>
