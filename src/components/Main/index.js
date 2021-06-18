@@ -1,11 +1,12 @@
 import React from 'react';
+import Carousel from '../Carousel'
 
 function Main() {
   return (
     <main>
       <section className="landing">
         <div>
-          <img src={require(`../../assets/images/Braid_fairy-logo.jpg`).default} alt="logo"></img>
+          <img src={require(`../../assets/images/logo.jpg`).default} alt="logo"></img>
         </div>
       </section>
 
@@ -16,7 +17,7 @@ function Main() {
         <p>Booking avaiable online only</p>
       </div>
 
-      <div className="carousel"></div>
+      <Carousel />
 
       <div className="links-div">
           <ul className="main-links">
