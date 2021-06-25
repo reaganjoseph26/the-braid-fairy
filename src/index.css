@@ -124,5 +124,19 @@ img {
  justify-content: center;
 }
 
+.card {
+  margin: 2rem 0;
+}
+
+.card-img-top {
+  position: inherit; 
+   width: 20%;
+}
+
+.row {
+  margin: 0 3rem;
+  padding-left: 1rem;
+}
+
 
 
