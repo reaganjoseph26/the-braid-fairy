@@ -1,4 +1,4 @@
-@import "~slick-carousel/slick/slick.css";
+/* @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
 .carousel {
@@ -46,7 +46,7 @@
 .prev {
   left: 0%;
   top: 50%;
-}
+} */
 
 body {
   margin: 0;
@@ -59,9 +59,8 @@ main {
 }
 
 .landing {
-  /* background-image: url('./assets/images/viktor-talashuk.jpg'); */
   background-color: black;
-  min-height: 100vh;
+  min-height: 80vh;
   background-size: cover;
   padding: 0rem 5rem
 }
@@ -119,6 +118,11 @@ img {
   text-align: center;
 }
 
-.test {
-  color: red
+.services {
+  color: white;
+ text-align: center;
+ justify-content: center;
 }
+
+
+
