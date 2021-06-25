@@ -1,7 +1,7 @@
 import React from 'react';
-import Carousel from '../Carousel'
+// import Carousel from '../Carousel'
 
-function Main() {
+function Main(props) {
   return (
     <main>
       <section className="landing">
@@ -17,11 +17,11 @@ function Main() {
         <p>Booking avaiable online only</p>
       </div>
 
-      <Carousel />
+      {/* <Carousel /> */}
 
       <div className="links-div">
           <ul className="main-links">
-            <li><a href="">Book Appointment</a></li>
+            <li onClick={() => {props.setRenderedComponent("Services")}}><a href="#Services">Services</a></li>
             <li><a href="">Tutorial</a></li>
             <li><a href="">Shop</a></li>
           </ul>

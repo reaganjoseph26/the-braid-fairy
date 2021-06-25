@@ -4,7 +4,6 @@ import logo from '../../assets/images/logo.jpg';
 import test1 from '../../assets/images/test1.jpg';
 import test2 from '../../assets/images/test2.jpg';
 import Slider from 'react-slick';
-import '../../index.css';
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 const images = [logo, test1, test2];
